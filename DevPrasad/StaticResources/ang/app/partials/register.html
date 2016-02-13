@@ -1,0 +1,30 @@
+<h3 class="form-header">Enter Account Details</h3>
+<h6>Health goth quinoa kickstarter cornhole</h6>
+<form class="form-margin">
+    <div class="form-group">
+        <label for="exampleInputEmail1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" ng-model="email">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputFName" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="exampleInputFName" placeholder="First Name" ng-model="fName">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputLName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="exampleInputLName" placeholder="Last Name" ng-model="lName">
+    </div>
+    <div class="checkbox" style="margin-top: 22px">
+        <label>
+            <input type="checkbox" ng-model="checked"> I agree the terms & conditions
+        </label>
+    </div>
+    <div class="frm-button" style="margin-top:28px">
+        <button type="button" class="btn btn-primary btn-block" ng-disabled='!checked' ng-click="registerUser(email,fName,lName)">Next  ></button>
+    </div>
+    <div ng-if="isUserRegistered" class="lbl-reg-success">
+        Successfully Registered
+    </div>
+    <div ng-if="!isUserRegistered && isUserRegistered!=null " class="lbl-reg-failed">
+        User Not Registered
+    </div>
+</form>

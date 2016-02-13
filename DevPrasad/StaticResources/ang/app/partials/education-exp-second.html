@@ -1,0 +1,30 @@
+<h3 class="form-header">Education Experience</h3>
+<h6>Health goth quinoa kickstarter cornhole</h6>
+<form class="form-margin">
+   
+    <div class="form-group">
+        <img class="img-responsive" src="{{schImgPath}}" style11=" width: 122px; height: 47px;">
+    </div>
+    <div class="form-group">
+        <label for="txtSchoolName" class="form-label">School Name</label>
+        <input type="text" class="form-control" id="txtSchoolName" placeholder="School Name" ng-model="schoolName" disabled="disabled">
+    </div>
+    <div class="form-group">
+        <label for="txtFieldOfStudy" class="form-label">Field of Study</label>
+        <input type="text" class="form-control" id="txtFieldOfStudy" placeholder="Field of Study" ng-model="fieldOfStudy" >
+    </div>
+    <div class="form-group">
+        <label for="txtGraduationYear" class="form-label">Graduation Year</label>
+        <input type="text" class="form-control" id="txtGraduationYear" placeholder="Graduation Year" ng-model="graduationYear" >
+    </div>
+   
+    <div class="frm-button" style="margin-top:28px">
+        <button type="button" class="btn btn-primary btn-block" ng-click="saveEduExperience(schoolName,fieldOfStudy,graduationYear)">Next  ></button>
+    </div>
+    <div ng-if="hasEduExpSaved" class="lbl-reg-success">
+        Successfully saved.
+    </div>
+    <div ng-if="!hasEduExpSaved && hasEduExpSaved!=null " class="lbl-reg-failed">
+        Save failed.
+    </div>
+</form>

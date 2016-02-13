@@ -1,0 +1,43 @@
+<h3 class="form-header">Tell us about you</h3>
+    <h6>Health goth quinoa kickstarter cornhole</h6>
+    <form class="form-margin">
+         <div class="dv-prof-pic">
+            <span class="form-label lbl-profile-pic">Upload a profile photo</span>
+            <div id="holder" class="img-holder">
+                <span><a class="txt-upload-img" href="" onclick="document.getElementById('upload').click(); return false">+</a></span>
+                <span></span>
+                <input type="file" id="upload" name="upload" class="ta-img-upload" value="" file-model="myFile" />
+            </div>
+        </div>
+    
+        <div class="form-group">
+            <label for="txtWhereLive" class="form-label">Where do you live?</label>
+            <input type="text" class="form-control" id="txtWhereLive" placeholder="Where do you live?" ng-model="whereLive">
+        </div>
+        <div class="form-group">
+            <label for="howFarTravel" class="form-label">How far are you willing to travel?</label>
+            <input type="text" class="form-control" id="howFarTravel" placeholder="How far are you willing to travel?" ng-model="howFarTravel">
+        </div>
+        <div class="form-group">
+            <label for="specializedIn" class="form-label">What do you specialize in?</label>
+            <input type="text" class="form-control" id="specializedIn" placeholder="What do you specialize in?" ng-model="specializedIn">
+        </div>
+        <div class="form-group">
+            <label for="expectedRate" class="form-label">What is your expected rate?</label>
+            <input type="text" class="form-control" id="expectedRate" placeholder="What is your expected rate?" ng-model="expectedRate">
+        </div>
+        <div class="frm-button" style="margin-top:28px">
+            <button type="button" class="btn btn-primary btn-block" ng-click="saveTellAboutYou(whereLive,howFarTravel,specializedIn,expectedRate)">Next  ></button>
+        </div>
+        <div ng-if="hasTellAboutYouSaved" class="lbl-reg-success">
+            Successfully saved.
+        </div>
+        <div ng-if="!hasTellAboutYouSaved && hasTellAboutYouSaved!=null " class="lbl-reg-failed">
+            Save failed.
+        </div>
+        </form>
+
+
+
+
+

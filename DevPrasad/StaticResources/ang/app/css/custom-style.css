@@ -1,0 +1,135 @@
+body a {
+    font-family: 'Roboto','Myriad Set Pro', 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+}
+
+.lbl-reg-success {
+    margin-top: 16px;
+    color: green;
+    font-weight: bold;
+}
+
+.lbl-reg-failed {
+    margin-top: 16px;
+    color: red;
+    font-weight: bold;
+}
+
+
+.lbl-login-fail {
+    float: left;
+    margin: 12px 0 0 30px;
+    font-size: 16px;
+    color: red;
+}
+
+.lnk-in-panel {
+    margin-top: 54px;
+}
+
+.frm-button {
+    width: 200px;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.form-margin {
+    margin-top: 50px;
+}
+
+.form-header {
+    color: #337ab7;
+}
+
+.form-label {
+    font-weight: 200;
+    font-size: 13px;
+    color: #A4A4A4;
+}
+
+footer {
+}
+
+
+.content-v-center {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-border-input {
+    border: 0;
+    border-bottom: 1px solid red;
+    outline: 0;
+}
+
+.label-italic {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.form-block {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 9;
+}
+
+.lbl-whats-next-bot {
+    color: #337ab7;
+}
+
+.whats-next-item {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #C4C3C3;
+    margin-bottom: 0px;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+    .whats-next-item:hover {
+        background-color: #F8F5F5;
+    }
+
+.col-gray {
+    color: #D1D1D1;
+}
+
+.whats-next-item-a {
+    text-decoration: none !important;
+    color: #000000;
+    margin-left: 5px;
+}
+
+.img-holder {
+    margin: 0 !important;
+    margin-top: 5px !important;
+    width: 100px !important;
+    height: 107px !important;
+}
+
+.lbl-profile-pic {
+    font-size: 11px;
+}
+
+.dv-prof-pic {
+    margin-bottom: 47px;
+}
+
+.ta-img-upload {
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+}
+.txt-upload-img {
+    text-decoration: none !important;
+    color: #A4A4A4;
+}

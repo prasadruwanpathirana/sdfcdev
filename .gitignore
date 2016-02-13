@@ -2,3 +2,7 @@
 .settings
 salesforce.schema
 Referenced Packages
+**/.localHistory
+*.sfuo
+TestCache.xml
+TestsResultsCache.xml

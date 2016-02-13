@@ -1,0 +1,26 @@
+<h3 class="form-header">Login</h3>
+<h6>Health goth quinoa kickstarter cornhole</h6>
+<form class="form-margin">
+    <div class="form-group">
+        <label for="exampleInputEmail1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" ng-model="eMailID">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" ng-model="password">
+        <label class="form-label label-italic">Forgot Password?</label>
+    </div>
+    <div class="frm-button">
+        <div class="pull-left">
+            <button type="button" class="btn btn-primary btn-block" ng-click="authenticateUser(eMailID,password)">Login  ></button>   
+        </div>
+         
+        <div class="pull-left lbl-login-fail" ng-show="isLoginFailed">
+            Login Failed
+        </div>
+    </div>
+    <div class="lnk-in-panel">
+        <span class="form-label">Login with </span><img width="53" src="img/linkedin.png" />
+    </div>
+    
+</form>

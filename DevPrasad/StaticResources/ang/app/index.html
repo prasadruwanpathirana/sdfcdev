@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>NVoi App</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/nvoi_rs.css" rel="stylesheet" />
+    <link href="css/custom-style.css" rel="stylesheet">
+
+
+</head>
+<body ng-app="NVoiApp">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="page-header">
+                    <img class="img-responsive" src="img/header.png" />
+                </h1>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-sm-8 eq-height">
+                <img class="img-responsive" src="img/default-banner.jpg">
+            </div>
+            <div class="col-sm-4  eq-height">
+                <div class="content-v-center">
+                    <div class="form-block">
+                        <ng-view></ng-view>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <hr>
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script/lib/angular.js"></script>
+    <script src="script/lib/angular-route.js"></script>
+    <script src="script/lib/jquery.js"></script>
+    <script src="script/lib/bootstrap.min.js"></script>
+    <script src="script/lib/jquery.matchHeight-min.js"></script>
+    
+    
+    <script src="script/app.js"></script>
+    <script src="script/service/user-service.js"></script>
+    <script src="script/controller/default-controller.js"></script>
+    <script src="script/controller/login-controller.js"></script>
+    <script src="script/controller/register-controller.js"></script>
+    <script src="script/directives/ng-enter.js"></script>
+    <script src="script/directives/file-model.js"></script>
+    <script src="script/controller/main-controller.js"></script>
+    <script src="script/controller/reset-password-controller.js"></script>
+    <script src="script/controller/tell-about-you-controller.js"></script>
+    <script src="script/controller/whats-next-controller.js"></script>
+    <script src="script/controller/education-exp-first-controller.js"></script>
+    <script src="script/controller/education-exp-second-controller.js"></script>
+</body>
+</html>

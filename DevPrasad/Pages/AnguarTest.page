@@ -7,18 +7,12 @@
 
     
     <script type="text/javascript">
-    //this is a test edit
-    //this is an another edit
-
-    
-    // making conflicts
     
     </script>
 
 </head>
 
 <body ng-controller="MainController" >
-
 
 <div class="panel panel-primary">
         

@@ -1,13 +1,11 @@
-﻿(function () {
+(function () {
     'use strict';
 
-    angular.module('NVoiApp', [
+    angular.module('MyApp', [
         'ui.router',
-        'foundation',
-        'NVoiApp.services',
-        'NVoiApp.controllers',
-        'NVoiApp.directives',
-       'ngTagsInput'
+        'MyApp.services',
+        'MyApp.controllers',
+        'MyApp.directives'
     ])
         .config(function ($stateProvider, $urlRouterProvider) {
 
@@ -17,45 +15,17 @@
                 .state('default', {
                     url: '/default',
                     views: {
-                        '': { templateUrl: SitePrefix + 'registrationcw.html' },
-                        'columnOne@default': {
-
-                            templateUrl: SitePrefix + 'partials/default.html',
-                            controller: 'defaultController'
+                        '': { 
+                            templateUrl: SitePrefix + 'views/firstView.html',
+                            controller: 'firstController'
                         }
                     }
                 })
         })
 
-        .run(function ($rootScope, $location) {
-            $rootScope.$on("$stateChangeStart", function (event, next, current) {
-                if ($rootScope.isPublicPage) {
-                    $rootScope.isPublicPage = false;
-                } else {
-                    // $location.path("/default");
-                    // $location.path("/searchassignment");
-
-                }
-            });
-
-            $rootScope.globalMixup = function () {
-                $('input,select').on('keyup change blur keypress', function () {
-                    var empty = $(this).parent().find('input').filter(function () {
-                        return this.value === "";
-                    });
-                    var emptySel = $(this).parent().find('select').filter(function () {
-                        return this.value === "";
-                    });
-                    if (empty.length || emptySel.length) {
-                        $('button').prop("disabled", true);
-                    } else {
-                        $('button').prop("disabled", false);
-                    }
-                }).change();
-            };
-        });
-    angular.module('NVoiApp.services', []);
-    angular.module('NVoiApp.controllers', []);
-    angular.module('NVoiApp.directives', []);
+       
+    angular.module('MyApp.services', []);
+    angular.module('MyApp.controllers', []);
+    angular.module('MyApp.directives', []);
 }());
 

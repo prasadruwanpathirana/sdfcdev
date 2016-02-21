@@ -7,17 +7,13 @@ public class TODOController
 				from Group__c];
 	}
 
-
 	@RemoteAction
 	public static List<Task__c> getTasks(Id groupId)
 	{
-
 		return [select id, Name, Description__c, Due_Date__c, Group__r.Name, Complete__c, Status_Image__c 
 				from Task__c 
 				where Group__c=:groupId
 				order by Due_Date__c];
-				//this is a test comment
-
 	}
 	
 	@RemoteAction

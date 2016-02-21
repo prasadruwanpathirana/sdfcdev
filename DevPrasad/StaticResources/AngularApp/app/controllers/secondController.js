@@ -1,1 +1,9 @@
-﻿
+(function(){
+
+	'use strict';
+
+
+
+
+
+}());

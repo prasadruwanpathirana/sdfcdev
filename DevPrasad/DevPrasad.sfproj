@@ -29,6 +29,12 @@
     <Folder Include="StaticResources" />
     <Folder Include="StaticResources\ang" />
     <Folder Include="StaticResources\angular" />
+    <Folder Include="StaticResources\AngularApp\" />
+    <Folder Include="StaticResources\AngularApp\app\" />
+    <Folder Include="StaticResources\AngularApp\app\controllers\" />
+    <Folder Include="StaticResources\AngularApp\app\directives\" />
+    <Folder Include="StaticResources\AngularApp\app\services\" />
+    <Folder Include="StaticResources\AngularApp\app\views\" />
     <Folder Include="StaticResources\AngularMP" />
     <Folder Include="StaticResources\AngularMP\css\" />
     <Folder Include="StaticResources\AngularMP\img\" />
@@ -1114,6 +1120,12 @@
       <Id>081i0000000KWNJAA4</Id>
       <LastModifiedDateUtcTicks>130967147890000000</LastModifiedDateUtcTicks>
       <Hash>srhZ9PGi+0sl/JErEfrIdA==</Hash>
+    </StaticZip>
+    <StaticZip Include="StaticResources\AngularApp">
+      <SubType>StaticResourceZip</SubType>
+      <Id>081i0000000KXbDAAW</Id>
+      <LastModifiedDateUtcTicks>131003378590000000</LastModifiedDateUtcTicks>
+      <Hash>yhBT0iNTtb5pNCN2i+u5xA==</Hash>
     </StaticZip>
     <StaticZip Include="StaticResources\AngularMP">
       <SubType>StaticResourceZip</SubType>
@@ -3180,6 +3192,13 @@
       <LastModifiedDateUtcTicks>130983891510000000</LastModifiedDateUtcTicks>
       <Hash>N+Dyx2qrkjD6gSEFAVbLkw==</Hash>
     </Static>
+    <Static Include="StaticResources\TWS_Sync_Data.resource">
+      <SubType>StaticResource</SubType>
+      <PhysicalRelativePath>StaticResources\TWS_Sync_Data.resource</PhysicalRelativePath>
+      <Id>081i0000000KXb8AAG</Id>
+      <Hash>15pBxuQfuSExI8jhPl5dZA==</Hash>
+      <LastModifiedDateUtcTicks>131003375420000000</LastModifiedDateUtcTicks>
+    </Static>
   </ItemGroup>
   <ItemGroup>
     <None Include="Classes\AutocreatedRegHandler1453521927715.cls-meta.xml">
@@ -3777,6 +3796,86 @@
       <LastModifiedDateUtcTicks>130963821150000000</LastModifiedDateUtcTicks>
       <Hash>+agIX5MrXb9/0x1ghTUzbg==</Hash>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularApp\app\app.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularApp\app\app.js</PhysicalRelativePath>
+      <StaticResource>AngularApp</StaticResource>
+      <StaticResourcePath>StaticResources\AngularApp\app\app.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularApp\app\controllers\firstController.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularApp\app\controllers\firstController.js</PhysicalRelativePath>
+      <StaticResource>AngularApp</StaticResource>
+      <StaticResourcePath>StaticResources\AngularApp\app\controllers\firstController.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularApp\app\controllers\secondController.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularApp\app\controllers\secondController.js</PhysicalRelativePath>
+      <StaticResource>AngularApp</StaticResource>
+      <StaticResourcePath>StaticResources\AngularApp\app\controllers\secondController.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularApp\app\directives\directiveOne.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularApp\app\directives\directiveOne.js</PhysicalRelativePath>
+      <StaticResource>AngularApp</StaticResource>
+      <StaticResourcePath>StaticResources\AngularApp\app\directives\directiveOne.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularApp\app\services\constantService.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularApp\app\services\constantService.js</PhysicalRelativePath>
+      <StaticResource>AngularApp</StaticResource>
+      <StaticResourcePath>StaticResources\AngularApp\app\services\constantService.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularApp\app\services\firstService.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularApp\app\services\firstService.js</PhysicalRelativePath>
+      <StaticResource>AngularApp</StaticResource>
+      <StaticResourcePath>StaticResources\AngularApp\app\services\firstService.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularApp\app\services\secondService.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularApp\app\services\secondService.js</PhysicalRelativePath>
+      <StaticResource>AngularApp</StaticResource>
+      <StaticResourcePath>StaticResources\AngularApp\app\services\secondService.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularApp\app\views\firstView.html">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularApp\app\views\firstView.html</PhysicalRelativePath>
+      <StaticResource>AngularApp</StaticResource>
+      <StaticResourcePath>StaticResources\AngularApp\app\views\firstView.html</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularApp\app\views\secondView.html">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularApp\app\views\secondView.html</PhysicalRelativePath>
+      <StaticResource>AngularApp</StaticResource>
+      <StaticResourcePath>StaticResources\AngularApp\app\views\secondView.html</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularApp\app\views\thirdView.html">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularApp\app\views\thirdView.html</PhysicalRelativePath>
+      <StaticResource>AngularApp</StaticResource>
+      <StaticResourcePath>StaticResources\AngularApp\app\views\thirdView.html</StaticResourcePath>
+    </StaticZipItem>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Build.targets" />
 </Project>

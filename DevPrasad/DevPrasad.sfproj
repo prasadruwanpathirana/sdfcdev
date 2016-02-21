@@ -35,6 +35,18 @@
     <Folder Include="StaticResources\AngularApp\app\directives\" />
     <Folder Include="StaticResources\AngularApp\app\services\" />
     <Folder Include="StaticResources\AngularApp\app\views\" />
+    <Folder Include="StaticResources\AngularForce\" />
+    <Folder Include="StaticResources\AngularForce\ngForce-master\" />
+    <Folder Include="StaticResources\AngularForce\ngForce-master\build\" />
+    <Folder Include="StaticResources\AngularForce\ngForce-master\images\" />
+    <Folder Include="StaticResources\AngularForce\ngForce-master\jsSrc\" />
+    <Folder Include="StaticResources\AngularForce\ngForce-master\jsSrc\subModules\" />
+    <Folder Include="StaticResources\AngularForce\ngForce-master\lib\" />
+    <Folder Include="StaticResources\AngularForce\ngForce-master\src\" />
+    <Folder Include="StaticResources\AngularForce\ngForce-master\src\classes\" />
+    <Folder Include="StaticResources\AngularForce\ngForce-master\src\components\" />
+    <Folder Include="StaticResources\AngularForce\ngForce-master\src\pages\" />
+    <Folder Include="StaticResources\AngularForce\ngForce-master\src\staticresources\" />
     <Folder Include="StaticResources\AngularMP" />
     <Folder Include="StaticResources\AngularMP\css\" />
     <Folder Include="StaticResources\AngularMP\img\" />
@@ -76,6 +88,13 @@
     <Folder Include="StaticResources\SiteSamples\img\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\AngularRemoteClass.cls">
+      <SubType>Class</SubType>
+      <PhysicalRelativePath>Classes\AngularRemoteClass.cls</PhysicalRelativePath>
+      <Id>01pi0000006CB0rAAG</Id>
+      <Hash>x8LoaePkvNXKBNXds5i0ug==</Hash>
+      <LastModifiedDateUtcTicks>131005398010000000</LastModifiedDateUtcTicks>
+    </Compile>
     <Compile Include="Classes\AutocreatedRegHandler1453521927715.cls">
       <PhysicalRelativePath>Classes\AutocreatedRegHandler1453521927715.cls</PhysicalRelativePath>
       <SubType>Class</SubType>
@@ -325,8 +344,8 @@
       <PhysicalRelativePath>Pages\AnguarTest.page</PhysicalRelativePath>
       <SubType>Page</SubType>
       <Id>066i0000004VC4VAAW</Id>
-      <LastModifiedDateUtcTicks>131005290110000000</LastModifiedDateUtcTicks>
-      <Hash>WNgcgpAodvHrJdTGuO75sg==</Hash>
+      <LastModifiedDateUtcTicks>131005398010000000</LastModifiedDateUtcTicks>
+      <Hash>IRKK3B4ysLfzgnGulK7X8w==</Hash>
     </Compile>
     <Compile Include="Pages\AnswersHome.page">
       <PhysicalRelativePath>Pages\AnswersHome.page</PhysicalRelativePath>
@@ -671,6 +690,84 @@
       <LastModifiedDateUtcTicks>130963821150000000</LastModifiedDateUtcTicks>
       <Hash>NgxMo6Eh1LTauERHygWKwA==</Hash>
     </Compile>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\pages\oppDetailsTmpl.page">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\pages\oppDetailsTmpl.page</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\pages\oppDetailsTmpl.page</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\pages\oppDetail.page">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\pages\oppDetail.page</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\pages\oppDetail.page</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\pages\oppBoxTmpl.page">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\pages\oppBoxTmpl.page</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\pages\oppBoxTmpl.page</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\pages\ngForceRestAPIDemo.page">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\pages\ngForceRestAPIDemo.page</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\pages\ngForceRestAPIDemo.page</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\pages\ngForceDemo.page">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\pages\ngForceDemo.page</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\pages\ngForceDemo.page</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\pages\ngForceConfig.page">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\pages\ngForceConfig.page</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\pages\ngForceConfig.page</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\pages\ngForceAccountsAll.page">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\pages\ngForceAccountsAll.page</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\pages\ngForceAccountsAll.page</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\pages\ngForceAccounts.page">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\pages\ngForceAccounts.page</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\pages\ngForceAccounts.page</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\components\ngforce.component">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\components\ngforce.component</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\components\ngforce.component</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\classes\testNgForceController.cls">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\classes\testNgForceController.cls</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\classes\testNgForceController.cls</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\classes\ngForceController_TEST.cls">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\classes\ngForceController_TEST.cls</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\classes\ngForceController_TEST.cls</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\classes\ngForceController.cls">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\classes\ngForceController.cls</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\classes\ngForceController.cls</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\classes\TestUtils.cls">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\classes\TestUtils.cls</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\classes\TestUtils.cls</StaticResourcePath>
+    </StaticZipItem>
   </ItemGroup>
   <ItemGroup>
     <Object Include="Objects\aaa__c.object">
@@ -1124,8 +1221,14 @@
     <StaticZip Include="StaticResources\AngularApp">
       <SubType>StaticResourceZip</SubType>
       <Id>081i0000000KXbDAAW</Id>
-      <LastModifiedDateUtcTicks>131005297610000000</LastModifiedDateUtcTicks>
-      <Hash>q2uiL2ZhLJgtRWK5fpG88g==</Hash>
+      <LastModifiedDateUtcTicks>131005397730000000</LastModifiedDateUtcTicks>
+      <Hash>cFrgZ1lDgq035CHTP2cvMA==</Hash>
+    </StaticZip>
+    <StaticZip Include="StaticResources\AngularForce">
+      <SubType>StaticResourceZip</SubType>
+      <Id>081i0000000KXgDAAW</Id>
+      <LastModifiedDateUtcTicks>131005395790000000</LastModifiedDateUtcTicks>
+      <Hash>6Er94Uj32B9PhGKffuhfpA==</Hash>
     </StaticZip>
     <StaticZip Include="StaticResources\AngularMP">
       <SubType>StaticResourceZip</SubType>
@@ -3129,6 +3232,18 @@
     </StaticZipItem>
   </ItemGroup>
   <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\staticresources\Bootstrap.resource">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\staticresources\Bootstrap.resource</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\staticresources\Bootstrap.resource</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\staticresources\ngForce.resource">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\staticresources\ngForce.resource</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\staticresources\ngForce.resource</StaticResourcePath>
+    </StaticZipItem>
     <Static Include="StaticResources\BGLogo.png">
       <PhysicalRelativePath>StaticResources\BGLogo.png</PhysicalRelativePath>
       <SubType>StaticResource</SubType>
@@ -3201,6 +3316,13 @@
     </Static>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Classes\AngularRemoteClass.cls-meta.xml">
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>Classes\AngularRemoteClass.cls-meta.xml</PhysicalRelativePath>
+      <Hash>aF/lg9SrSXWcG94DkGkoIw==</Hash>
+      <LastModifiedDateUtcTicks>131005397410000000</LastModifiedDateUtcTicks>
+      <DependentUpon>Classes\AngularRemoteClass.cls</DependentUpon>
+    </None>
     <None Include="Classes\AutocreatedRegHandler1453521927715.cls-meta.xml">
       <PhysicalRelativePath>Classes\AutocreatedRegHandler1453521927715.cls-meta.xml</PhysicalRelativePath>
       <SubType>Metadata</SubType>
@@ -3450,7 +3572,7 @@
       <PhysicalRelativePath>Pages\AnguarTest.page-meta.xml</PhysicalRelativePath>
       <SubType>Metadata</SubType>
       <DependentUpon>Pages\AnguarTest.page</DependentUpon>
-      <LastModifiedDateUtcTicks>131005290110000000</LastModifiedDateUtcTicks>
+      <LastModifiedDateUtcTicks>131005398010000000</LastModifiedDateUtcTicks>
       <Hash>/aJdGbjMxxonJs0M0YMTLg==</Hash>
     </None>
     <None Include="Pages\AnswersHome.page-meta.xml">
@@ -3796,6 +3918,96 @@
       <LastModifiedDateUtcTicks>130963821150000000</LastModifiedDateUtcTicks>
       <Hash>+agIX5MrXb9/0x1ghTUzbg==</Hash>
     </None>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\staticresources\ngForce.resource-meta.xml">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\staticresources\ngForce.resource-meta.xml</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\staticresources\ngForce.resource-meta.xml</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\staticresources\Bootstrap.resource-meta.xml">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\staticresources\Bootstrap.resource-meta.xml</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\staticresources\Bootstrap.resource-meta.xml</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\pages\oppDetailsTmpl.page-meta.xml">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\pages\oppDetailsTmpl.page-meta.xml</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\pages\oppDetailsTmpl.page-meta.xml</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\pages\oppDetail.page-meta.xml">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\pages\oppDetail.page-meta.xml</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\pages\oppDetail.page-meta.xml</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\pages\oppBoxTmpl.page-meta.xml">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\pages\oppBoxTmpl.page-meta.xml</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\pages\oppBoxTmpl.page-meta.xml</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\pages\ngForceRestAPIDemo.page-meta.xml">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\pages\ngForceRestAPIDemo.page-meta.xml</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\pages\ngForceRestAPIDemo.page-meta.xml</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\pages\ngForceDemo.page-meta.xml">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\pages\ngForceDemo.page-meta.xml</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\pages\ngForceDemo.page-meta.xml</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\pages\ngForceConfig.page-meta.xml">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\pages\ngForceConfig.page-meta.xml</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\pages\ngForceConfig.page-meta.xml</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\pages\ngForceAccountsAll.page-meta.xml">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\pages\ngForceAccountsAll.page-meta.xml</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\pages\ngForceAccountsAll.page-meta.xml</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\pages\ngForceAccounts.page-meta.xml">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\pages\ngForceAccounts.page-meta.xml</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\pages\ngForceAccounts.page-meta.xml</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\components\ngforce.component-meta.xml">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\components\ngforce.component-meta.xml</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\components\ngforce.component-meta.xml</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\classes\testNgForceController.cls-meta.xml">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\classes\testNgForceController.cls-meta.xml</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\classes\testNgForceController.cls-meta.xml</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\classes\ngForceController_TEST.cls-meta.xml">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\classes\ngForceController_TEST.cls-meta.xml</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\classes\ngForceController_TEST.cls-meta.xml</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\classes\ngForceController.cls-meta.xml">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\classes\ngForceController.cls-meta.xml</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\classes\ngForceController.cls-meta.xml</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\classes\TestUtils.cls-meta.xml">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\classes\TestUtils.cls-meta.xml</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\classes\TestUtils.cls-meta.xml</StaticResourcePath>
+    </StaticZipItem>
   </ItemGroup>
   <ItemGroup>
     <StaticZipItem Include="StaticResources\AngularApp\app\app.js">
@@ -3875,6 +4087,358 @@
       <PhysicalRelativePath>StaticResources\AngularApp\app\views\thirdView.html</PhysicalRelativePath>
       <StaticResource>AngularApp</StaticResource>
       <StaticResourcePath>StaticResources\AngularApp\app\views\thirdView.html</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\.gitignore">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\.gitignore</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\.gitignore</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\Gruntfile.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\Gruntfile.js</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\Gruntfile.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\LICENSE">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\LICENSE</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\LICENSE</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\README.md">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\README.md</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\README.md</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\bower.json">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\bower.json</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\bower.json</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\build\ngForce-dependencies.min.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\build\ngForce-dependencies.min.js</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\build\ngForce-dependencies.min.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\build\ngForce-dependencies.min.js.map">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\build\ngForce-dependencies.min.js.map</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\build\ngForce-dependencies.min.js.map</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\build\ngForce.min.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\build\ngForce.min.js</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\build\ngForce.min.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\build\ngForce.min.js.map">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\build\ngForce.min.js.map</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\build\ngForce.min.js.map</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\build\ngForceWithDependencies.min.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\build\ngForceWithDependencies.min.js</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\build\ngForceWithDependencies.min.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\build\ngForceWithDependencies.min.js.map">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\build\ngForceWithDependencies.min.js.map</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\build\ngForceWithDependencies.min.js.map</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\images\apple-touch-icon-114x114-precomposed.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\images\apple-touch-icon-114x114-precomposed.png</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\images\apple-touch-icon-114x114-precomposed.png</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\images\apple-touch-icon-72x72-precomposed.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\images\apple-touch-icon-72x72-precomposed.png</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\images\apple-touch-icon-72x72-precomposed.png</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\images\favicon.ico">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\images\favicon.ico</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\images\favicon.ico</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\images\favicon.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\images\favicon.png</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\images\favicon.png</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\images\favicon.svg">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\images\favicon.svg</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\images\favicon.svg</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\images\logo_119x129.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\images\logo_119x129.png</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\images\logo_119x129.png</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\images\logo_128x128.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\images\logo_128x128.png</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\images\logo_128x128.png</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\images\logo_44x48.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\images\logo_44x48.png</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\images\logo_44x48.png</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\images\logo_474x512.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\images\logo_474x512.png</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\images\logo_474x512.png</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\images\logo_48x48.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\images\logo_48x48.png</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\images\logo_48x48.png</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\images\logo_512x512.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\images\logo_512x512.png</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\images\logo_512x512.png</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\images\logo_notxt_128x128.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\images\logo_notxt_128x128.png</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\images\logo_notxt_128x128.png</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\images\logo_notxt_48x48.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\images\logo_notxt_48x48.png</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\images\logo_notxt_48x48.png</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\images\logo_notxt_512x512.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\images\logo_notxt_512x512.png</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\images\logo_notxt_512x512.png</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\images\ngforce.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\images\ngforce.png</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\images\ngforce.png</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\images\ngforce.svg">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\images\ngforce.svg</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\images\ngforce.svg</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\jsSrc\ngForce.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\jsSrc\ngForce.js</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\jsSrc\ngForce.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-encodedUriQuery.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-encodedUriQuery.js</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-encodedUriQuery.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-multipart.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-multipart.js</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-multipart.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-remoteObjects.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-remoteObjects.js</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-remoteObjects.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-sfTemplate.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-sfTemplate.js</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-sfTemplate.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-sfr.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-sfr.js</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-sfr.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-sfrAnalytics.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-sfrAnalytics.js</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-sfrAnalytics.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-sfrBackend.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-sfrBackend.js</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-sfrBackend.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-sfrfile.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-sfrfile.js</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-sfrfile.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-sfrquery.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-sfrquery.js</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-sfrquery.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-visualForceRemoting.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-visualForceRemoting.js</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\jsSrc\subModules\ngForce-visualForceRemoting.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\lib\lo-dash.compat.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\lib\lo-dash.compat.js</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\lib\lo-dash.compat.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\lib\restangular.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\lib\restangular.js</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\lib\restangular.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\lib\safeApply.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\lib\safeApply.js</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\lib\safeApply.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\lib\stringview.js">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\lib\stringview.js</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\lib\stringview.js</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\package.json">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\package.json</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\package.json</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\AngularForce\ngForce-master\src\package.xml">
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>StaticResources\AngularForce\ngForce-master\src\package.xml</PhysicalRelativePath>
+      <StaticResource>AngularForce</StaticResource>
+      <StaticResourcePath>StaticResources\AngularForce\ngForce-master\src\package.xml</StaticResourcePath>
     </StaticZipItem>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Build.targets" />

@@ -1,0 +1,32 @@
+<apex:page controller="AngularRemoteClass" showheader="false" sidebar="false" doctype="html-5.0" standardstylesheets="false">
+    <html lang="en">
+
+    <head title="MyApp">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+        <script src="{!URLFOR($Resource.AngularForce)}/ngForce-master/build/ngForce.min.js"></script>
+        <script src="{!URLFOR($Resource.AngularForce)}/ngForce-master/build/ngForce-dependencies.min.js"></script>
+        
+
+        <script type="text/javascript">
+          var SitePrefix="{!URLFOR($Resource.AngularApp)}/app/";
+          var test = '{!$User.FirstName}';
+
+        </script>
+    </head>
+    {!$User.FirstName}
+    <body ng-app="MyApp">
+
+        <ui-view></ui-view>
+        <!-- Add JS Files HERE -->
+        <script src="{!URLFOR($Resource.AngularApp)}/app/app.js"></script>
+        <script src="{!URLFOR($Resource.AngularApp)}/app/controllers/firstController.js"></script>
+        <script src="{!URLFOR($Resource.AngularApp)}/app/controllers/secondController.js"></script>
+        <script src="{!URLFOR($Resource.AngularApp)}/app/services/firstService.js"></script>
+        <script src="{!URLFOR($Resource.AngularApp)}/app/services/secondService.js"></script>
+        <script src="{!URLFOR($Resource.AngularApp)}/app/services/constantService.js"></script>
+        <script src="{!URLFOR($Resource.AngularApp)}/app/directives/directiveOne.js"></script>
+    </body>
+</html>
+
+</apex:page>

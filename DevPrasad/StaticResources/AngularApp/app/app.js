@@ -5,7 +5,10 @@
         'ui.router',
         'MyApp.services',
         'MyApp.controllers',
-        'MyApp.directives'
+        'MyApp.directives',
+		'ngForce'
+		
+	
     ])
         .config(function ($stateProvider, $urlRouterProvider) {
 

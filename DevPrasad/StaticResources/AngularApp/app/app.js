@@ -5,8 +5,7 @@
         'ui.router',
         'MyApp.services',
         'MyApp.controllers',
-        'MyApp.directives',
-		'ngForce'
+        'MyApp.directives'
 		
 	
     ])

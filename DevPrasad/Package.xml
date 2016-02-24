@@ -5,8 +5,37 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>SiteFooter</members>
+        <members>SiteHeader</members>
+        <members>SiteLogin</members>
+        <members>SitePoweredBy</members>
+        <members>TodoCSS</members>
+        <members>TodoJS</members>
+        <members>recordDisplay</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
         <members>*</members>
         <name>ApexPage</name>
+    </types>
+    <types>
+        <members>ContactList</members>
+        <members>ContactsToday</members>
+        <members>DemoLightningApp</members>
+        <members>DemoLightningCmpt</members>
+        <members>MyData</members>
+        <members>MyLightningApp</members>
+        <members>MyLightningComponent</members>
+        <members>QuickContacts</members>
+        <members>SearchBar</members>
+        <members>SearchKeyChange</members>
+        <members>expenseTracker</members>
+        <members>form</members>
+        <members>hello</members>
+        <members>revenuEvent</members>
+        <members>test</members>
+        <members>test2</members>
+        <name>AuraDefinitionBundle</name>
     </types>
     <types>
         <members>*</members>

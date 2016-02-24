@@ -23,6 +23,22 @@
   <ItemGroup>
     <Folder Include="AnonymousApex" />
     <Folder Include="Classes" />
+    <Folder Include="Components\" />
+    <Folder Include="Lightning Bundles\" />
+    <Folder Include="Lightning Bundles\ContactList\" />
+    <Folder Include="Lightning Bundles\ContactsToday\" />
+    <Folder Include="Lightning Bundles\DemoLightningApp\" />
+    <Folder Include="Lightning Bundles\DemoLightningCmpt\" />
+    <Folder Include="Lightning Bundles\expenseTracker\" />
+    <Folder Include="Lightning Bundles\form\" />
+    <Folder Include="Lightning Bundles\hello\" />
+    <Folder Include="Lightning Bundles\MyData\" />
+    <Folder Include="Lightning Bundles\MyLightningApp\" />
+    <Folder Include="Lightning Bundles\MyLightningComponent\" />
+    <Folder Include="Lightning Bundles\QuickContacts\" />
+    <Folder Include="Lightning Bundles\SearchBar\" />
+    <Folder Include="Lightning Bundles\test2\" />
+    <Folder Include="Lightning Bundles\test\" />
     <Folder Include="Objects" />
     <Folder Include="Pages" />
     <Folder Include="Soql" />
@@ -339,6 +355,415 @@
       <Id>01pi0000006C2QvAAK</Id>
       <LastModifiedDateUtcTicks>130963821140000000</LastModifiedDateUtcTicks>
       <Hash>SNrnMjfOijWUDjOx1dKrVg==</Hash>
+    </Compile>
+    <Compile Include="Components\recordDisplay.component">
+      <SubType>Component</SubType>
+      <PhysicalRelativePath>Components\recordDisplay.component</PhysicalRelativePath>
+      <Id>099i0000000dEXTAA2</Id>
+      <Hash>rBAc4gdhugM9l4GLu3Sb0w==</Hash>
+      <LastModifiedDateUtcTicks>130566315860000000</LastModifiedDateUtcTicks>
+    </Compile>
+    <Compile Include="Components\SiteFooter.component">
+      <SubType>Component</SubType>
+      <PhysicalRelativePath>Components\SiteFooter.component</PhysicalRelativePath>
+      <Id>099i0000000cjrvAAA</Id>
+      <Hash>qEar3k8+0k9iI1+hjrK0kw==</Hash>
+      <LastModifiedDateUtcTicks>130392493310000000</LastModifiedDateUtcTicks>
+    </Compile>
+    <Compile Include="Components\SiteHeader.component">
+      <SubType>Component</SubType>
+      <PhysicalRelativePath>Components\SiteHeader.component</PhysicalRelativePath>
+      <Id>099i0000000cjruAAA</Id>
+      <Hash>40TB+GVviMRT/hxjdErRkg==</Hash>
+      <LastModifiedDateUtcTicks>130392493310000000</LastModifiedDateUtcTicks>
+    </Compile>
+    <Compile Include="Components\SiteLogin.component">
+      <SubType>Component</SubType>
+      <PhysicalRelativePath>Components\SiteLogin.component</PhysicalRelativePath>
+      <Id>099i0000000cjrwAAA</Id>
+      <Hash>Psb1EURl8wC/Li7PhLUR9w==</Hash>
+      <LastModifiedDateUtcTicks>130392493310000000</LastModifiedDateUtcTicks>
+    </Compile>
+    <Compile Include="Components\SitePoweredBy.component">
+      <SubType>Component</SubType>
+      <PhysicalRelativePath>Components\SitePoweredBy.component</PhysicalRelativePath>
+      <Id>099i0000000cjrtAAA</Id>
+      <Hash>+aiFqB8jdf3qKFC82zz8zw==</Hash>
+      <LastModifiedDateUtcTicks>130392493310000000</LastModifiedDateUtcTicks>
+    </Compile>
+    <Compile Include="Components\TodoCSS.component">
+      <SubType>Component</SubType>
+      <PhysicalRelativePath>Components\TodoCSS.component</PhysicalRelativePath>
+      <Id>099i0000000d9IeAAI</Id>
+      <Hash>Zrnrp69CpAGYzSaL3KW+qA==</Hash>
+      <LastModifiedDateUtcTicks>130530804310000000</LastModifiedDateUtcTicks>
+    </Compile>
+    <Compile Include="Components\TodoJS.component">
+      <SubType>Component</SubType>
+      <PhysicalRelativePath>Components\TodoJS.component</PhysicalRelativePath>
+      <Id>099i0000000d9IfAAI</Id>
+      <Hash>y9TeU4MrTarFREIjWaS1ow==</Hash>
+      <LastModifiedDateUtcTicks>130530804310000000</LastModifiedDateUtcTicks>
+    </Compile>
+    <Compile Include="Lightning Bundles\ContactList\ContactList.cmp">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\ContactList\ContactList.cmp</PhysicalRelativePath>
+      <Id>0Adi0000000TQ8JCAW</Id>
+      <Hash>NKrBSYgq1fhrRftwt6Rdbw==</Hash>
+      <LastModifiedDateUtcTicks>130943902740000000</LastModifiedDateUtcTicks>
+      <BundleName>ContactList</BundleName>
+      <LightningType>Component</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\ContactList\ContactList.css">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\ContactList\ContactList.css</PhysicalRelativePath>
+      <Id>0Adi0000000TQ8TCAW</Id>
+      <Hash>6AVahM/9IHR9XNHwfJaVcw==</Hash>
+      <LastModifiedDateUtcTicks>130943905370000000</LastModifiedDateUtcTicks>
+      <BundleName>ContactList</BundleName>
+      <LightningType>Style</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\ContactList\ContactListController.js">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\ContactList\ContactListController.js</PhysicalRelativePath>
+      <Id>0Adi0000000TQ8OCAW</Id>
+      <Hash>yu0wTs72SpMGS5xATvr2Ww==</Hash>
+      <LastModifiedDateUtcTicks>130943911410000000</LastModifiedDateUtcTicks>
+      <BundleName>ContactList</BundleName>
+      <LightningType>Controller</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\ContactsToday\ContactsToday.cmp">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\ContactsToday\ContactsToday.cmp</PhysicalRelativePath>
+      <Id>0Adi0000000TQtdCAG</Id>
+      <Hash>HSzVdkXOjyBDewtTaiLKgw==</Hash>
+      <LastModifiedDateUtcTicks>130985319670000000</LastModifiedDateUtcTicks>
+      <BundleName>ContactsToday</BundleName>
+      <LightningType>Component</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\ContactsToday\ContactsToday.css">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\ContactsToday\ContactsToday.css</PhysicalRelativePath>
+      <Id>0Adi0000000TQtgCAG</Id>
+      <Hash>hHdYiue4QA5dV3zJpo7MwA==</Hash>
+      <LastModifiedDateUtcTicks>130985319670000000</LastModifiedDateUtcTicks>
+      <BundleName>ContactsToday</BundleName>
+      <LightningType>Style</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\ContactsToday\ContactsToday.design">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\ContactsToday\ContactsToday.design</PhysicalRelativePath>
+      <Id>0Adi0000000TQthCAG</Id>
+      <Hash>LM0MeiZN2zmgFFKtUDDW7Q==</Hash>
+      <LastModifiedDateUtcTicks>130985319670000000</LastModifiedDateUtcTicks>
+      <BundleName>ContactsToday</BundleName>
+      <LightningType>Design</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\ContactsToday\ContactsTodayController.js">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\ContactsToday\ContactsTodayController.js</PhysicalRelativePath>
+      <Id>0Adi0000000TQteCAG</Id>
+      <Hash>afm3a9K2vYyc3+QsRy7LzA==</Hash>
+      <LastModifiedDateUtcTicks>130985319670000000</LastModifiedDateUtcTicks>
+      <BundleName>ContactsToday</BundleName>
+      <LightningType>Controller</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\ContactsToday\ContactsTodayHelper.js">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\ContactsToday\ContactsTodayHelper.js</PhysicalRelativePath>
+      <Id>0Adi0000000TQtfCAG</Id>
+      <Hash>n/tJwgAE14kh1ztTwS4jsg==</Hash>
+      <LastModifiedDateUtcTicks>130985319670000000</LastModifiedDateUtcTicks>
+      <BundleName>ContactsToday</BundleName>
+      <LightningType>Helper</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\DemoLightningApp\DemoLightningApp.app">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\DemoLightningApp\DemoLightningApp.app</PhysicalRelativePath>
+      <Id>0Adi0000000TQBhCAO</Id>
+      <Hash>MDwpyPgqIGlAzgIjSoDLDg==</Hash>
+      <LastModifiedDateUtcTicks>130947218710000000</LastModifiedDateUtcTicks>
+      <BundleName>DemoLightningApp</BundleName>
+      <LightningType>Application</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\DemoLightningCmpt\DemoLightningCmpt.cmp">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\DemoLightningCmpt\DemoLightningCmpt.cmp</PhysicalRelativePath>
+      <Id>0Adi0000000TQBcCAO</Id>
+      <Hash>j5RBSwSYeEnw5UqgUgbpeg==</Hash>
+      <LastModifiedDateUtcTicks>130947220230000000</LastModifiedDateUtcTicks>
+      <BundleName>DemoLightningCmpt</BundleName>
+      <LightningType>Component</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\expenseTracker\expenseTracker.app">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\expenseTracker\expenseTracker.app</PhysicalRelativePath>
+      <Id>0Adi00000008OjVCAU</Id>
+      <Hash>EhxPBYvmrGknsaODFkrpow==</Hash>
+      <LastModifiedDateUtcTicks>130664717830000000</LastModifiedDateUtcTicks>
+      <BundleName>expenseTracker</BundleName>
+      <LightningType>Application</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\expenseTracker\expenseTracker.auradoc">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\expenseTracker\expenseTracker.auradoc</PhysicalRelativePath>
+      <Id>0Adi00000008OjkCAE</Id>
+      <Hash>C1ugETDJEKUpkkI3DyzkzQ==</Hash>
+      <LastModifiedDateUtcTicks>130663074020000000</LastModifiedDateUtcTicks>
+      <BundleName>expenseTracker</BundleName>
+      <LightningType>Documentation</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\expenseTracker\expenseTracker.css">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\expenseTracker\expenseTracker.css</PhysicalRelativePath>
+      <Id>0Adi00000008OjaCAE</Id>
+      <Hash>pc+dI3Xq2FgBgBRNxPG3TA==</Hash>
+      <LastModifiedDateUtcTicks>130662339130000000</LastModifiedDateUtcTicks>
+      <BundleName>expenseTracker</BundleName>
+      <LightningType>Style</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\expenseTracker\expenseTrackerController.js">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\expenseTracker\expenseTrackerController.js</PhysicalRelativePath>
+      <Id>0Adi00000008OjzCAE</Id>
+      <Hash>CyCX/XsVRVAAW6tgSZEh8w==</Hash>
+      <LastModifiedDateUtcTicks>130663074280000000</LastModifiedDateUtcTicks>
+      <BundleName>expenseTracker</BundleName>
+      <LightningType>Controller</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\expenseTracker\expenseTrackerHelper.js">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\expenseTracker\expenseTrackerHelper.js</PhysicalRelativePath>
+      <Id>0Adi00000008OjuCAE</Id>
+      <Hash>n/tJwgAE14kh1ztTwS4jsg==</Hash>
+      <LastModifiedDateUtcTicks>130663074200000000</LastModifiedDateUtcTicks>
+      <BundleName>expenseTracker</BundleName>
+      <LightningType>Helper</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\expenseTracker\expenseTrackerRenderer.js">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\expenseTracker\expenseTrackerRenderer.js</PhysicalRelativePath>
+      <Id>0Adi00000008OjpCAE</Id>
+      <Hash>vxR9TqytMsSoL2OYRRLlsg==</Hash>
+      <LastModifiedDateUtcTicks>130663074110000000</LastModifiedDateUtcTicks>
+      <BundleName>expenseTracker</BundleName>
+      <LightningType>Renderer</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\form\form.cmp">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\form\form.cmp</PhysicalRelativePath>
+      <Id>0Adi00000008OjfCAE</Id>
+      <Hash>x6Zf9C4HteMdgfMgKW27DQ==</Hash>
+      <LastModifiedDateUtcTicks>130663958130000000</LastModifiedDateUtcTicks>
+      <BundleName>form</BundleName>
+      <LightningType>Component</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\hello\hello.auradoc">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\hello\hello.auradoc</PhysicalRelativePath>
+      <Id>0Adi00000008OjLCAU</Id>
+      <Hash>C1ugETDJEKUpkkI3DyzkzQ==</Hash>
+      <LastModifiedDateUtcTicks>130662260350000000</LastModifiedDateUtcTicks>
+      <BundleName>hello</BundleName>
+      <LightningType>Documentation</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\hello\hello.cmp">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\hello\hello.cmp</PhysicalRelativePath>
+      <Id>0Adi00000008Oj1CAE</Id>
+      <Hash>o5dx5f5ipLOhAlHk7UER5Q==</Hash>
+      <LastModifiedDateUtcTicks>130662318300000000</LastModifiedDateUtcTicks>
+      <BundleName>hello</BundleName>
+      <LightningType>Component</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\hello\hello.css">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\hello\hello.css</PhysicalRelativePath>
+      <Id>0Adi00000008OjGCAU</Id>
+      <Hash>sxvtMzXj2ZEaQ112GvgcZQ==</Hash>
+      <LastModifiedDateUtcTicks>130662178100000000</LastModifiedDateUtcTicks>
+      <BundleName>hello</BundleName>
+      <LightningType>Style</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\hello\helloController.js">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\hello\helloController.js</PhysicalRelativePath>
+      <Id>0Adi00000008Oj6CAE</Id>
+      <Hash>oNI13S6ykW5Z6Dh8WOrJvQ==</Hash>
+      <LastModifiedDateUtcTicks>130662296580000000</LastModifiedDateUtcTicks>
+      <BundleName>hello</BundleName>
+      <LightningType>Controller</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\hello\helloHelper.js">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\hello\helloHelper.js</PhysicalRelativePath>
+      <Id>0Adi00000008OjBCAU</Id>
+      <Hash>gqOi2cPvFMe5u61h+Ew5og==</Hash>
+      <LastModifiedDateUtcTicks>130662297170000000</LastModifiedDateUtcTicks>
+      <BundleName>hello</BundleName>
+      <LightningType>Helper</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\hello\helloRenderer.js">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\hello\helloRenderer.js</PhysicalRelativePath>
+      <Id>0Adi00000008OjQCAU</Id>
+      <Hash>vxR9TqytMsSoL2OYRRLlsg==</Hash>
+      <LastModifiedDateUtcTicks>130662260420000000</LastModifiedDateUtcTicks>
+      <BundleName>hello</BundleName>
+      <LightningType>Renderer</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\MyData\MyData.app">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\MyData\MyData.app</PhysicalRelativePath>
+      <Id>0Adi0000000TQtiCAG</Id>
+      <Hash>PHcdTu2vx9a2xqcJIcJ1rw==</Hash>
+      <LastModifiedDateUtcTicks>130985320820000000</LastModifiedDateUtcTicks>
+      <BundleName>MyData</BundleName>
+      <LightningType>Application</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\MyData\MyData.auradoc">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\MyData\MyData.auradoc</PhysicalRelativePath>
+      <Id>0Adi0000000TRJUCA4</Id>
+      <Hash>C1ugETDJEKUpkkI3DyzkzQ==</Hash>
+      <LastModifiedDateUtcTicks>131007697010000000</LastModifiedDateUtcTicks>
+      <BundleName>MyData</BundleName>
+      <LightningType>Documentation</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\MyData\MyData.css">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\MyData\MyData.css</PhysicalRelativePath>
+      <Id>0Adi0000000TRJPCA4</Id>
+      <Hash>sxvtMzXj2ZEaQ112GvgcZQ==</Hash>
+      <LastModifiedDateUtcTicks>131007696990000000</LastModifiedDateUtcTicks>
+      <BundleName>MyData</BundleName>
+      <LightningType>Style</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\MyData\MyData.svg">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\MyData\MyData.svg</PhysicalRelativePath>
+      <Id>0Adi0000000TRJeCAO</Id>
+      <Hash>FI11GwGkCUXkoraCvKQ6kg==</Hash>
+      <LastModifiedDateUtcTicks>131007697070000000</LastModifiedDateUtcTicks>
+      <BundleName>MyData</BundleName>
+      <LightningType>SVG</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\MyData\MyDataController.js">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\MyData\MyDataController.js</PhysicalRelativePath>
+      <Id>0Adi0000000TRJFCA4</Id>
+      <Hash>CyCX/XsVRVAAW6tgSZEh8w==</Hash>
+      <LastModifiedDateUtcTicks>131007696920000000</LastModifiedDateUtcTicks>
+      <BundleName>MyData</BundleName>
+      <LightningType>Controller</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\MyData\MyDataHelper.js">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\MyData\MyDataHelper.js</PhysicalRelativePath>
+      <Id>0Adi0000000TRJKCA4</Id>
+      <Hash>n/tJwgAE14kh1ztTwS4jsg==</Hash>
+      <LastModifiedDateUtcTicks>131007696950000000</LastModifiedDateUtcTicks>
+      <BundleName>MyData</BundleName>
+      <LightningType>Helper</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\MyData\MyDataRenderer.js">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\MyData\MyDataRenderer.js</PhysicalRelativePath>
+      <Id>0Adi0000000TRJZCA4</Id>
+      <Hash>vxR9TqytMsSoL2OYRRLlsg==</Hash>
+      <LastModifiedDateUtcTicks>131007697040000000</LastModifiedDateUtcTicks>
+      <BundleName>MyData</BundleName>
+      <LightningType>Renderer</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\MyLightningApp\MyLightningApp.app">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\MyLightningApp\MyLightningApp.app</PhysicalRelativePath>
+      <Id>0Adi0000000TQJ3CAO</Id>
+      <Hash>jBhc6taSDWYV2f/qVgaI3A==</Hash>
+      <LastModifiedDateUtcTicks>130960198580000000</LastModifiedDateUtcTicks>
+      <BundleName>MyLightningApp</BundleName>
+      <LightningType>Application</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\MyLightningApp\MyLightningApp.css">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\MyLightningApp\MyLightningApp.css</PhysicalRelativePath>
+      <Id>0Adi0000000TQJICA4</Id>
+      <Hash>sxvtMzXj2ZEaQ112GvgcZQ==</Hash>
+      <LastModifiedDateUtcTicks>130960203820000000</LastModifiedDateUtcTicks>
+      <BundleName>MyLightningApp</BundleName>
+      <LightningType>Style</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\MyLightningApp\MyLightningAppController.js">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\MyLightningApp\MyLightningAppController.js</PhysicalRelativePath>
+      <Id>0Adi0000000TQJ8CAO</Id>
+      <Hash>CyCX/XsVRVAAW6tgSZEh8w==</Hash>
+      <LastModifiedDateUtcTicks>130960189370000000</LastModifiedDateUtcTicks>
+      <BundleName>MyLightningApp</BundleName>
+      <LightningType>Controller</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\MyLightningComponent\MyLightningComponent.cmp">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\MyLightningComponent\MyLightningComponent.cmp</PhysicalRelativePath>
+      <Id>0Adi0000000TQIyCAO</Id>
+      <Hash>AWJXxLe9gSLJcwBlTg96hg==</Hash>
+      <LastModifiedDateUtcTicks>130960204980000000</LastModifiedDateUtcTicks>
+      <BundleName>MyLightningComponent</BundleName>
+      <LightningType>Component</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\MyLightningComponent\MyLightningComponent.css">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\MyLightningComponent\MyLightningComponent.css</PhysicalRelativePath>
+      <Id>0Adi0000000TQJDCA4</Id>
+      <Hash>fM2681kdHPDSMdq9AO+Qqg==</Hash>
+      <LastModifiedDateUtcTicks>130960204210000000</LastModifiedDateUtcTicks>
+      <BundleName>MyLightningComponent</BundleName>
+      <LightningType>Style</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\QuickContacts\QuickContacts.app">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\QuickContacts\QuickContacts.app</PhysicalRelativePath>
+      <Id>0Adi0000000TQ8ECAW</Id>
+      <Hash>jSaZUc65qRi8wkBJi2np9w==</Hash>
+      <LastModifiedDateUtcTicks>130943904470000000</LastModifiedDateUtcTicks>
+      <BundleName>QuickContacts</BundleName>
+      <LightningType>Application</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\SearchBar\SearchBar.cmp">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\SearchBar\SearchBar.cmp</PhysicalRelativePath>
+      <Id>0Adi0000000TQ8dCAG</Id>
+      <Hash>jFblrGzGpFKuHZREMv8mAQ==</Hash>
+      <LastModifiedDateUtcTicks>130943907590000000</LastModifiedDateUtcTicks>
+      <BundleName>SearchBar</BundleName>
+      <LightningType>Component</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\test2\test2.app">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\test2\test2.app</PhysicalRelativePath>
+      <Id>0Adi00000008OiwCAE</Id>
+      <Hash>KwpTYGCJ3DZsG15L4bCiag==</Hash>
+      <LastModifiedDateUtcTicks>130662175920000000</LastModifiedDateUtcTicks>
+      <BundleName>test2</BundleName>
+      <LightningType>Application</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\test\test.cmp">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\test\test.cmp</PhysicalRelativePath>
+      <Id>0Adi00000008OimCAE</Id>
+      <Hash>OPbNv081VUm4fOPV1Ckvgw==</Hash>
+      <LastModifiedDateUtcTicks>130662105730000000</LastModifiedDateUtcTicks>
+      <BundleName>test</BundleName>
+      <LightningType>Component</LightningType>
+    </Compile>
+    <Compile Include="Lightning Bundles\test\testController.js">
+      <SubType>AuraDefinitionBundle</SubType>
+      <PhysicalRelativePath>Lightning Bundles\test\testController.js</PhysicalRelativePath>
+      <Id>0Adi00000008OirCAE</Id>
+      <Hash>CyCX/XsVRVAAW6tgSZEh8w==</Hash>
+      <LastModifiedDateUtcTicks>130662171570000000</LastModifiedDateUtcTicks>
+      <BundleName>test</BundleName>
+      <LightningType>Controller</LightningType>
     </Compile>
     <Compile Include="Pages\AnguarTest.page">
       <PhysicalRelativePath>Pages\AnguarTest.page</PhysicalRelativePath>
@@ -3567,6 +3992,55 @@
       <DependentUpon>Classes\VFF_998.cls</DependentUpon>
       <LastModifiedDateUtcTicks>130963821140000000</LastModifiedDateUtcTicks>
       <Hash>0t7QQdJ68mDt7gYPMFKBHg==</Hash>
+    </None>
+    <None Include="Components\recordDisplay.component-meta.xml">
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>Components\recordDisplay.component-meta.xml</PhysicalRelativePath>
+      <Hash>3s5qCtF70ARYdqBnE428qQ==</Hash>
+      <LastModifiedDateUtcTicks>130566315860000000</LastModifiedDateUtcTicks>
+      <DependentUpon>Components\recordDisplay.component</DependentUpon>
+    </None>
+    <None Include="Components\SiteFooter.component-meta.xml">
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>Components\SiteFooter.component-meta.xml</PhysicalRelativePath>
+      <Hash>VywmFe0Gvvbb5JBZFv0mBQ==</Hash>
+      <LastModifiedDateUtcTicks>130392493310000000</LastModifiedDateUtcTicks>
+      <DependentUpon>Components\SiteFooter.component</DependentUpon>
+    </None>
+    <None Include="Components\SiteHeader.component-meta.xml">
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>Components\SiteHeader.component-meta.xml</PhysicalRelativePath>
+      <Hash>ku7ezjAqtV9ztkyNWesjEQ==</Hash>
+      <LastModifiedDateUtcTicks>130392493310000000</LastModifiedDateUtcTicks>
+      <DependentUpon>Components\SiteHeader.component</DependentUpon>
+    </None>
+    <None Include="Components\SiteLogin.component-meta.xml">
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>Components\SiteLogin.component-meta.xml</PhysicalRelativePath>
+      <Hash>JqR0g9hMj/2lQMaBzkkm0Q==</Hash>
+      <LastModifiedDateUtcTicks>130392493310000000</LastModifiedDateUtcTicks>
+      <DependentUpon>Components\SiteLogin.component</DependentUpon>
+    </None>
+    <None Include="Components\SitePoweredBy.component-meta.xml">
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>Components\SitePoweredBy.component-meta.xml</PhysicalRelativePath>
+      <Hash>N7odgivpiezrQv9H9wCjsw==</Hash>
+      <LastModifiedDateUtcTicks>130392493310000000</LastModifiedDateUtcTicks>
+      <DependentUpon>Components\SitePoweredBy.component</DependentUpon>
+    </None>
+    <None Include="Components\TodoCSS.component-meta.xml">
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>Components\TodoCSS.component-meta.xml</PhysicalRelativePath>
+      <Hash>NNTZX6xoISAyRb+hh7NwJw==</Hash>
+      <LastModifiedDateUtcTicks>130530804310000000</LastModifiedDateUtcTicks>
+      <DependentUpon>Components\TodoCSS.component</DependentUpon>
+    </None>
+    <None Include="Components\TodoJS.component-meta.xml">
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>Components\TodoJS.component-meta.xml</PhysicalRelativePath>
+      <Hash>TdqhTXN6ChVPJoKnMyR98Q==</Hash>
+      <LastModifiedDateUtcTicks>130530804310000000</LastModifiedDateUtcTicks>
+      <DependentUpon>Components\TodoJS.component</DependentUpon>
     </None>
     <None Include="Pages\AnguarTest.page-meta.xml">
       <PhysicalRelativePath>Pages\AnguarTest.page-meta.xml</PhysicalRelativePath>

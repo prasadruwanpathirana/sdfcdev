@@ -20,6 +20,9 @@
         <script type="text/javascript">
           var SitePrefix="{!URLFOR($Resource.AngularApp)}/app/";
           var test = '{!$User.FirstName}';
+          console.log('test');
+
+
 
         </script>
     </head>
